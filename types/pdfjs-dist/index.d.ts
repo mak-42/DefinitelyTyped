@@ -320,12 +320,11 @@ interface PDFRef {
 }
 
 interface PDFPageViewportOptions {
-    viewBox: any;
-    scale: number;
-    rotation: number;
-    offsetX: number;
-    offsetY: number;
-    dontFlip: boolean;
+    scale?: number;
+    rotation?: number;
+    offsetX?: number;
+    offsetY?: number;
+    dontFlip?: boolean;
 }
 
 interface PDFPageViewport {
